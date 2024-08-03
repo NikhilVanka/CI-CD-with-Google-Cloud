@@ -45,16 +45,16 @@ By the end of this lab, you will have accomplished the following tasks:
 
 1. **Develop a Python Flask Application**:
    - Open the Cloud Shell Code Editor.
-   - Create a new file named `main.py` and paste in the following code from the repository: [main.py](https://github.com/logicopslab/DevOpsProjectWithGCP/blob/main/main.py).
+   - Create a new file named `main.py` and paste in the following code from the repository: [main.py](https://github.com/NikhilVanka/CI-CD-with-Google-Cloud/blob/main/main.py).
 
 2. **Set Up the Application’s Templates**:
    - In the `devops-repo` directory, create a new folder named `templates`.
    - Inside the `templates` folder, create two new files:
-     - `layout.html`: Add the code from [layout.html](https://github.com/logicopslab/DevOpsProjectWithGCP/blob/main/layout.html).
-     - `index.html`: Add the code from [index.html](https://github.com/logicopslab/DevOpsProjectWithGCP/blob/main/index.html).
+     - `layout.html`: Add the code from [layout.html](https://github.com/NikhilVanka/CI-CD-with-Google-Cloud/blob/main/layout.html).
+     - `index.html`: Add the code from [index.html](https://github.com/NikhilVanka/CI-CD-with-Google-Cloud/blob/main/index.html).
 
 3. **Manage Dependencies**:
-   - Create a `requirements.txt` file in the `devops-repo` directory and add the dependencies listed here: [requirements.txt](https://github.com/logicopslab/DevOpsProjectWithGCP/blob/main/requirements.txt).
+   - Create a `requirements.txt` file in the `devops-repo` directory and add the dependencies listed here: [requirements.txt](https://github.com/NikhilVanka/CI-CD-with-Google-Cloud/blob/main/requirements.txt).
 
 4. **Commit and Push Changes**:
    - In Cloud Shell, run the following commands:
@@ -71,7 +71,7 @@ By the end of this lab, you will have accomplished the following tasks:
 
 1. **Create a Dockerfile**:
    - In the `devops-repo` directory, create a new file named `Dockerfile`.
-   - Paste the Dockerfile content from [here](https://github.com/logicopslab/DevOpsProjectWithGCP/blob/main/Dockerfile).
+   - Paste the Dockerfile content from [here](https://github.com/NikhilVanka/CI-CD-with-Google-Cloud/blob/main/Dockerfile).
 
 #### Task 4: Manage Docker Images with Cloud Build and Container Registry
 
@@ -127,7 +127,7 @@ By the end of this lab, you will have accomplished the following tasks:
    - Deploy the new image to a VM instance, and allow HTTP traffic.
    - Access the VM’s external IP to verify the updated application.
 
-Congratulations! You’ve successfully built and tested a continuous integration pipeline using Google Cloud’s suite of tools.
+Congratulations! We’ve successfully built and tested a continuous integration pipeline using Google Cloud’s suite of tools.
 
 ---
 
